@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "langchain-rag-api"
+version = "0.1.0"
+description = "LangChain based RAG API"
+authors = ["Vladimir Egay <vova.e.125@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "0.1.6"
+pypdf2 = "3.0.1"
+python-dotenv = "1.0.0"
+unstructured = "0.10.27"
+markdown = "3.5"
+tiktoken = "^0.5.1"
+instagrapi = "^2.0.0"
+chromadb = "0.4.10"
+langchain-community = "^0.0.19"
+langchain-openai = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
